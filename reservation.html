@@ -10,65 +10,92 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>ABOUT Christina</title>
+  <title>rReservation</title>
 </head>
+
 <body>
   <header>
     <div class="container">
-         <div class="navtoggle" id="myNavtoggle">
-      <img class="logo" src="img/logo/logo-cs.jpg" alt="Christina Silitonga Logo">
-      <nav>
-        <ul>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-           <a href="index.html">Property</a>
-          </li>
-          <li>
-          <a href="contact.html">Contact</a>
-          </li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/logo/logo-cs.jpg" alt="Christina Silitonga Logo">
+        <nav>
+          <ul>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="index.html">Property</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-        </div>
   </header>
   <main>
     <section>
       <div class="container">
-        <h1>Contact</h1>
+        <h1>Reservation</h1>
       </div>
     </section>
     <section class="Our Contact">
       <div class="container">
         <div class="row">
           <div class="column col-md-12 col-lg-7">
-      <p>Let's keep in touch, stay in contact and work together.
-        I look forward to hearing from you, feel free to contact me, and we provide you our services.
-      </p>
-
-      <div class="contact">
-        <a href="mailto:christina.silitonga.03@gmail.com" class="button">Send Email</a>
-            <a href="+628116261981" target="_blank" class="button">Call Us</a>
-      </div>
-      <div class="social">
-        <!--Social Media Layout and Placeholders-->
-        <a href="https://www.linkedin.com/in/christina-silit/" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://twitter.com/ChristinaSlt03" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.behance.net/christisiliton" target="_blank">
-          <i class="fab fa-behance"></i>
-        </a>
-      </div>
-      <p class="copy">Copyright Christina Silitonga 2021</p>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+            <p>Let's keep in touch, stay in contact and work together.
+              I look forward to hearing from you, feel free to contact me, and we provide you our services.
+            </p>
+            <!--form_reservation and Placeholders-->
+            <div class="table">
+              <table border="2">
+                <caption>
+                  <h3>Your Booking</h3>
+                </caption>
+                <tr>
+                  <th>Check-in</th>
+                  <th>Check-out</th>
+                  <th>Avability</th>
+                </tr>
+                <tr>
+                  <td>Date</td>
+                  <td>Date</td>
+                  <td>Search</td>
+                </tr>
+              </table>
+            </div>
+            <br>
+            <input type="date" min="10-10-2022" max="2022-10-11" type="Check-in date">
+            <input type="date" min="10-10-2023" max="2022-10-11" type="date">
+        <input type="submit">
+            <br> <br>
+            <a href="form_reservation.html" class="button">Search</a>
+                <br> <br>
+            <div class="container">
+            </div>
+            <div class="contact">
+              <a href="form_contact.html" class="button">Send Email</a>
+              <a href="+628116261981" target="_blank" class="button">Call Us</a>
+            </div>
+            <div class="social">
+              <!--Social Media Layout and Placeholders-->
+              <a href="https://www.linkedin.com/in/christina-silit/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://twitter.com/ChristinaSlt03" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.behance.net/christisiliton" target="_blank">
+                <i class="fab fa-behance"></i>
+              </a>
+            </div>
+            <p class="copy">Copyright Christina Silitonga 2021</p>
+          </div>
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <script src="js/script.js"></script>
 </body>
 
 </html>
